@@ -1,0 +1,14 @@
+$body:#212121;
+$body_bak: #323232;
+$titles: #0D7377;
+$text: #14ffec;
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body{
+    background-color: $body;
+}
