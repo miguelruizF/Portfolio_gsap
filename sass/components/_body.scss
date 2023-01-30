@@ -35,54 +35,16 @@ body{
   text-transform: uppercase;
 }
 
-a{
-  color:$link;
-  text-decoration: none;
-}
 
-h2 {
-  font-size: clamp(1rem, 5vw, 5rem);
-  font-weight: 400;
-  text-align: center;
-  letter-spacing: 0.5em;
-  margin-right: -0.5em;
-  color: $text;
-  width: 90vw;
-  max-width: 1200px;
-  font-family: $font-titles;
-}
 
-section {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  position: fixed;
-  visibility: hidden;
 
-  .outer,
-  .inner {
-    width: 100%;
-    height: 100%;
-    overflow-y: hidden;
-  }
 
-  .bg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    background-size: cover;
-    background-position: center;
-
-    h2 {
-      z-index: 2;
-    }
-
-    .clip-text {
-      overflow: hidden;
-    }
-  }
+button {
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  border: none;
+  background: #f5cd03;
+  color: #0c0d0d;
+  cursor: pointer;
+  border-radius: 50px;
 }

@@ -1,15 +1,2 @@
 // @use "components/body";
 
-header {
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 5%;
-    width: 100%;
-    z-index: 3;
-    height: 7rem;
-    font-family: $font-text;
-    font-size: clamp(0.66rem, 2vw, 1rem);
-    letter-spacing: 0.5em;
-}
