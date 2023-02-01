@@ -6,11 +6,12 @@ $font-text:'Bebas Neue', cursive;
 $font-titles: 'Cormorant Garamond', serif;
 
 // colors
-$body:#212121;
+// $body:#212121;
+/* $body: #000;
 $body_bak: #323232;
 $titles: #0D7377;
 $text: #14ffec;
-$link: #fff;
+$link: #fff; */
 
 *,
 *::before,
@@ -34,10 +35,6 @@ body{
   font-family: $font-text;
   text-transform: uppercase;
 }
-
-
-
-
 
 button {
   padding: 1rem 3rem;

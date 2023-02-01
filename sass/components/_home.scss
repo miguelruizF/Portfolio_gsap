@@ -7,19 +7,19 @@ section {
 }
 
 .one {
-    background: #0c0d0d;
+    background-color: $body_bak;
 }
 
 .two {
-    background: #9ade6e;
+    background-color: $body_bak;
 }
 
 .three {
-    background: #fa7968;
+    background-color: $body_bak;
 }
 
 .four {
-    background: #2cbde4;
+    background-color: $body_bak; 
 }
 
 .container {
@@ -65,7 +65,7 @@ section {
 }
 
 .text {
-    color: #fff;
+    color: $text;
 }
 
 @media screen and (max-width: 768px) {
@@ -73,3 +73,4 @@ section {
         grid-template-columns: 1fr;
     }
 }
+

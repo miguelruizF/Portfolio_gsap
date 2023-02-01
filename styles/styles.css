@@ -1,5 +1,12 @@
+@charset "UTF-8";
+/*---TAMAÑOS LETRAS---*/
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&display=swap");
+/* $body: #000;
+$body_bak: #323232;
+$titles: #0D7377;
+$text: #14ffec;
+$link: #fff; */
 *,
 *::before,
 *::after {
@@ -15,7 +22,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  background-color: #212121;
+  background-color: #000;
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -33,6 +40,36 @@ button {
   border-radius: 50px;
 }
 
+.header {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  padding: 10px 2.5rem;
+  transition: 1s ease all;
+}
+.header .logo {
+  font-size: 4rem;
+  margin: 5px;
+  z-index: 9999;
+}
+.header .overflow {
+  overflow: hidden;
+}
+.header .menu > ul {
+  display: flex;
+}
+.header .menu > ul > li {
+  list-style: none;
+  justify-content: space-around;
+  padding: 0 2rem;
+}
+.header .menu > ul > li > a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 1rem;
+  transition: all 0.5s ease-in-out;
+}
 section {
   height: 100vh;
   position: sticky;
@@ -42,19 +79,19 @@ section {
 }
 
 .one {
-  background: #0c0d0d;
+  background-color: #323232;
 }
 
 .two {
-  background: #9ade6e;
+  background-color: #323232;
 }
 
 .three {
-  background: #fa7968;
+  background-color: #323232;
 }
 
 .four {
-  background: #2cbde4;
+  background-color: #323232;
 }
 
 .container {
@@ -100,7 +137,7 @@ section {
 }
 
 .text {
-  color: #fff;
+  color: #14ffec;
 }
 
 @media screen and (max-width: 768px) {
