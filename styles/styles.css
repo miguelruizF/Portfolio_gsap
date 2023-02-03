@@ -45,13 +45,13 @@ button {
   display: flex;
   position: fixed;
   justify-content: space-between;
-  padding: 10px 2.5rem;
+  padding: 10px 3rem;
   transition: 1s ease all;
+  z-index: 9999;
 }
 .header .logo {
   font-size: 4rem;
   margin: 5px;
-  z-index: 9999;
 }
 .header .overflow {
   overflow: hidden;
@@ -66,16 +66,23 @@ button {
 }
 .header .menu > ul > li > a {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 3rem;
+  color: #14ffec;
   font-weight: 1rem;
   transition: all 0.5s ease-in-out;
+  font-family: "Bebas Neue", cursive;
 }
+.header .menu > ul > li > a:hover {
+  color: #fff;
+}
+
 section {
   height: 100vh;
   position: sticky;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 998;
 }
 
 .one {

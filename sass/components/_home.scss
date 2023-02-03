@@ -1,9 +1,11 @@
 section {
     height: 100vh;
     position: sticky;
+    // position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 998;
 }
 
 .one {

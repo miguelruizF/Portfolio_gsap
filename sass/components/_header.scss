@@ -7,11 +7,11 @@
     justify-content: space-between;
     padding: 10px $md;
     transition: 1s ease all;
+    z-index: 9999;
     .logo {
         font-size: 4rem;
         // color: $pink;
         margin: 5px;
-        z-index: 9999;
     }
     .overflow {
         overflow: hidden;
@@ -24,14 +24,14 @@
             padding: 0 $xs;
             &>a {
                 text-decoration: none;
-                font-size: $xs;
+                font-size: $md;
                 // font-weight: $bold;
-                // color: $pink;
+                color: $text;
                 font-weight: 1rem;
                 transition: all .5s ease-in-out;
-                // font-family: $titulos;
+                font-family: $font-text;
                 &:hover {
-                    // color: $white;
+                    color: $link;
                 }
             }
         }
