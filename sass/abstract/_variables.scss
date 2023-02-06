@@ -1,13 +1,27 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&display=swap');
+
 /*---TAMAÑOS LETRAS---*/
 
 $xs:2rem;
+$xs-m:2.5rem;
 $md:3rem;
 $lg:6rem;
 $xl:8rem;
 
 // Paleta de colores
 $body: #000;
-$body_bak: #323232;
-$titles: #0D7377;
+$body_bak: #0a192f;
+// $titles: #0D7377;
+$titles: #adadad;
+$pharagraps: #515152;
 $text: #14ffec;
 $link: #fff;
+
+//fuentes
+
+// $font-text:'Bebas Neue', cursive;
+$font-text: 'Bai Jamjuree', sans-serif;
+$font-titles:'Bebas Neue', cursive;

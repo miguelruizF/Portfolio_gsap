@@ -9,9 +9,19 @@
     transition: 1s ease all;
     z-index: 9999;
     .logo {
-        font-size: 4rem;
+        display: flex;
+        justify-content: space-around;
+        font-size: $xs-m;
+        align-items: center;
+        padding: 0;
+        text-align: center;
         // color: $pink;
-        margin: 5px;
+        span{
+            margin:0 2rem;
+            font-family: $font-text;
+            text-align: center;
+            font-weight: bold;
+        }
     }
     .overflow {
         overflow: hidden;
@@ -24,10 +34,10 @@
             padding: 0 $xs;
             &>a {
                 text-decoration: none;
-                font-size: $md;
+                font-size: $xs-m;
                 // font-weight: $bold;
                 color: $text;
-                font-weight: 1rem;
+                font-weight: bold;
                 transition: all .5s ease-in-out;
                 font-family: $font-text;
                 &:hover {
