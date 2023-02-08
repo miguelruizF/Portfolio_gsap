@@ -147,8 +147,34 @@ section {
   font-family: "Bebas Neue", cursive;
   font-size: 8rem;
   font-weight: 100;
-  color: #adadad;
+  color: #ccd6f6;
+  padding: 0;
+  margin: 0;
 }
+.list_social {
+  width: 120px;
+  position: fixed;
+  bottom: 0px;
+  left: 40px;
+  right: auto;
+  z-index: 999;
+}
+.list_social li {
+  list-style: none;
+  padding-top: 2rem;
+  transition: 1s linear;
+}
+.list_social li:hover {
+  transform: translate(2rem);
+}
+.list_social li a {
+  font-size: 4rem;
+  color: #ccd6f6;
+}
+.list_social li a:hover {
+  color: #14ffec;
+}
+
 .tracking-in-contract {
   animation: tracking-in-contract 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
