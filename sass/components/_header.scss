@@ -1,49 +1,81 @@
 // @use "components/body";
-
-.header {
-    width: 100%;
+nav{
     display: flex;
-    position: fixed;
     justify-content: space-between;
-    padding: 10px $md;
-    transition: 1s ease all;
-    z-index: 9999;
-    .logo {
+    align-items: center;
+    position: relative;
+    width: 100%;
+    z-index: 12;
+    .logo{
         display: flex;
         justify-content: space-around;
-        font-size: $xs-m;
         align-items: center;
-        padding: 0;
+        font-size: $xs-m;
+        font-weight: bold;
         text-align: center;
-        // color: $pink;
+        &:hover{
+            color: $link;
+            transition: 0.5s ease-in-out;
+        }
         span{
-            margin:0 2rem;
+            font-weight: bolder;
             font-family: $font-text;
-            text-align: center;
-            font-weight: bold;
+            padding: 0 1rem;
         }
     }
-    .overflow {
-        overflow: hidden;
-    }
-    .menu>ul {
+
+    ul{
         display: flex;
-        &>li {
-            list-style: none;
-            justify-content: space-around;
-            padding: 0 $xs;
-            &>a {
-                text-decoration: none;
-                font-size: $xs-m;
-                // font-weight: $bold;
-                color: $text;
-                font-weight: bold;
-                transition: all .5s ease-in-out;
-                font-family: $font-text;
-                &:hover {
-                    color: $link;
+        align-items: center;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        li{
+            height: 100px;
+            position: relative;
+            font-size: $xs-m;
+            font-weight: bolder;
+            padding: 0 $md;
+            z-index: 1;
+            a{
+                align-items: center;
+                text-align: center;
+                display: flex;
+                width: 100%;
+                height: 100%;
+                &:before{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 0;
+                    background: $text;
+                    transition: .5s;
+                    z-index: -1;
+                    color: black;
                 }
+                &:hover:before{
+                    height: 100%;
+                    color: $pharagraps;
+                }
+            }
+            
+        }
+    }
+
+    .link{
+        a{
+            &:hover{
+                color: $pharagraps;
+                transition: .5s;
+                font-weight: bolder;
             }
         }
     }
+}
+
+.overflow {
+    overflow: hidden;
 }
