@@ -21,7 +21,6 @@ body {
   background-color: #000;
   margin: 0;
   padding: 0;
-  height: 100vh;
   font-family: "Bai Jamjuree", sans-serif;
 }
 
@@ -55,12 +54,22 @@ a {
 }
 
 section {
-  height: 100vh;
+  min-height: 100vh;
   position: sticky;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 998;
+}
+
+h1, h2, h3 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
 }
 
 .container {
@@ -230,12 +239,15 @@ nav .link a:hover {
 }
 .titles {
   color: #14ffec;
-  font-size: 6rem;
+  font-size: 5rem;
 }
 
 .div_section {
   display: flex;
   flex-direction: column;
+}
+.div_section .text_head {
+  font-size: 3rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

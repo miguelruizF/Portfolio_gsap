@@ -1,9 +1,12 @@
 .titles{
     color: $text;
-    font-size: $lg;
+    font-size: $lg-xs;
 }
 
 .div_section{
     display: flex;
     flex-direction: column;
+    .text_head{
+        font-size: $md;
+    }
 }

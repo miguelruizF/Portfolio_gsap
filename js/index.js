@@ -7,15 +7,18 @@ gsap.utils.toArray('.section').forEach(section => {
         pin: true,
         pinSpacing: false
     });
-}); */
+});
+ */
 
-let sections = gsap.utils.toArray("section"),
+
+
+/* let sections = gsap.utils.toArray("section"),
     currentSection = sections[0];
 
 gsap.defaults({overwrite: 'auto', duration: 0.3});
 
 // stretch out the body height according to however many sections there are. 
-gsap.set("body", {height: (sections.length * 100) + "%"});
+gsap.set("body", {height: (sections.length * 100) + "vh"});
 
 // create a ScrollTrigger for each section
 sections.forEach((section, i) => {
@@ -35,6 +38,6 @@ function setSection(newSection) {
     currentSection = newSection;
     }
 }
-
+ */
 
 

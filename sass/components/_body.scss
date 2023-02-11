@@ -17,7 +17,7 @@ body{
   background-color: $body;
   margin: 0;
   padding: 0;
-  height: 100vh;
+  // height: 100vh;
   font-family: $font-text;
   // text-transform: uppercase;
 }
@@ -52,12 +52,22 @@ a{
 }
 
 section {
-  height: 100vh;
+  min-height: 100vh;
   position: sticky;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 998;
+}
+
+h1,h2,h3{
+  padding: 0;
+  margin: 0;
+}
+
+p{
+  padding: 0;
+  margin: 0;
 }
 
 .container {
